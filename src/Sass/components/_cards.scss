@@ -1,0 +1,262 @@
+.card {
+	height: 52rem;
+	position: relative;
+	transition: all 0.8s ease;
+	perspective: 150rem;
+	-moz-perspective: 150rem;
+
+	// @include respond(tab-port) {
+	// 	margin-bottom: 17.2rem;
+	// }
+
+	&__side {
+		width: 100%;
+		height: 52rem;
+		transition: all 0.8s;
+		font-size: 2rem;
+		position: absolute;
+		top: 0;
+		left: 0;
+		backface-visibility: hidden;
+		border-radius: 3px;
+		box-shadow: #000;
+		overflow: hidden;
+
+		&--front {
+			background-color: white;
+		}
+		&--back {
+			background-color: gray;
+			transform: rotateY(180deg);
+			&-1 {
+				background-image: linear-gradient(
+					to right bottom,
+					rgb(139, 137, 137),
+					#000
+				);
+			}
+		}
+	}
+
+	&:hover &__side--front {
+		transform: rotateY(-180deg);
+		// @include respond(tab-port) {
+		// 	transform: rotateY(0deg);
+		// }
+	}
+	&:hover &__side--back {
+		transform: rotateY(0);
+	}
+
+	//FRONTSIDE STYLING
+	&__picture {
+		background-size: cover;
+		height: 23rem;
+		width: 100%;
+		background-blend-mode: screen;
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+		clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+
+		//First picture alone
+		&--1 {
+			background-image: linear-gradient(to right bottom, #000, #000),
+				url(./../../img/nat-5.jpg);
+		}
+	}
+
+	&__heading {
+		font-size: 2.8rem;
+		font-weight: 300;
+		text-transform: uppercase;
+		color: #fff;
+		position: absolute;
+		top: 12rem;
+		right: 2rem;
+		text-align: right;
+		width: 75%s;
+
+		&-span {
+			padding: 1rem 1.5rem;
+			&--1 {
+				background-image: linear-gradient(
+					to right bottom,
+					rgba(rgb(216, 216, 216), 0.85),
+					rgba(rgb(85, 85, 85), 0.85)
+				);
+			}
+		}
+	}
+	&__details {
+		padding: 3rem;
+
+		ul {
+			list-style: none;
+			width: 80%;
+			margin: 0 auto;
+			li {
+				text-align: center;
+				font-size: 1.5rem;
+				padding: 1rem;
+				border-bottom: 1px solid #eee;
+			}
+			&:not(:last-child) {
+				border-bottom: 1px solid #eee;
+			}
+		}
+	}
+	&__cta {
+		position: absolute;
+		width: 90%;
+		top: 50%;
+		text-align: center;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding: 7rem 2rem 5rem 2rem;
+
+		&__price-box {
+			text-align: center;
+			margin-bottom: 8rem;
+			color: #fff;
+		}
+
+		&__price-only {
+			font-size: 1.4rem;
+			text-transform: uppercase;
+		}
+
+		&__price-value {
+			font-size: 6rem;
+			font-weight: 100;
+		}
+	}
+
+	// @media only screen and (max-width: 56.25em), only screen and (hover: none) {
+	// }
+
+	// @include respond(tab-port) {
+	// 	.card {
+	// 		margin-bottom: 17.2rem;
+	// 		&__side {
+	// 			width: 100%;
+	// 			transition: all 0.8s;
+	// 			font-size: 2rem;
+	// 			position: relative;
+	// 			top: 0;
+	// 			left: 0;
+	// 			backface-visibility: hidden;
+	// 			border-radius: 3px;
+	// 			box-shadow: $box-shadow-primary;
+	// 			overflow: hidden;
+
+	// 			&--front {
+	// 				background-color: white;
+	// 			}
+	// 			&--back {
+	// 				background-color: gray;
+	// 				transform: rotateY(0deg);
+	// 				height: 15rem;
+	// 				&-1 {
+	// 					background-image: linear-gradient(
+	// 						to right bottom,
+	// 						$color-secondary-light,
+	// 						$color-secondary-dark
+	// 					);
+	// 					// clip-path: polygon(0 15%, 0 100%, 100% 100, 0% 100%);
+	// 				}
+	// 			}
+	// 		}
+
+	// 		// &:hover &__side--front {
+	// 		// 	transform: rotateY(0deg);
+	// 		// }
+	// 		// &:hover &__side--back {
+	// 		// 	transform: rotateY(0);
+	// 		// }
+
+	// 		//FRONTSIDE STYLING
+	// 		&__picture {
+	// 			background-size: cover;
+	// 			height: 23rem;
+	// 			background-blend-mode: screen;
+	// 			// -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+	// 			// clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+	// 			border-top-left-radius: 3px;
+	// 			border-top-right-radius: 3px;
+
+	// 			//First picture alone
+	// 			// &--1 {
+	// 			// 	background-image: linear-gradient(
+	// 			// 			to right bottom,
+	// 			// 			color-secondary-light,
+	// 			// 			$color-secondary-dark
+	// 			// 		),
+	// 			// 		url(./../../img/nat-5.jpg);
+	// 			// }
+	// 		}
+
+	// 		&__heading {
+	// 			font-size: 2.8rem;
+	// 			font-weight: 300;
+	// 			text-transform: uppercase;
+	// 			color: $color-primary-white;
+	// 			position: absolute;
+	// 			top: 12rem;
+	// 			right: 2rem;
+	// 			text-align: right;
+	// 			width: 75%;
+
+	// 			&-span {
+	// 				padding: 1rem 1.5rem;
+	// 				&--1 {
+	// 					background-image: linear-gradient(
+	// 						to right bottom,
+	// 						rgba($color-secondary-light, 0.85),
+	// 						rgba($color-secondary-dark, 0.85)
+	// 					);
+	// 				}
+	// 			}
+	// 		}
+	// 		&__details {
+	// 			padding: 2rem;
+
+	// 			ul {
+	// 				list-style: none;
+	// 				width: 80%;
+	// 				margin: 0 auto;
+	// 				li {
+	// 					text-align: center;
+	// 					font-size: 1.5rem;
+	// 					padding: 1rem;
+	// 					border-bottom: 1px solid #eee;
+	// 				}
+	// 				&:not(:last-child) {
+	// 					border-bottom: 1px solid #eee;
+	// 				}
+	// 			}
+	// 		}
+	// 		&__cta {
+	// 			width: 90%;
+	// 			text-align: center;
+	// 			transform: translate(-50%, -50%);
+
+	// 			// &__price-box {
+	// 			// 	text-align: center;
+	// 			// 	margin-bottom: 8rem;
+	// 			// 	color: $color-primary-white;
+	// 			// }
+
+	// 			&__price-only {
+	// 				font-size: 1.4rem;
+	// 				text-transform: uppercase;
+	// 			}
+
+	// 			&__price-value {
+	// 				font-size: 4rem;
+	// 				font-weight: 100;
+	// 			}
+	// 		}
+	// 	}
+	// }
+}

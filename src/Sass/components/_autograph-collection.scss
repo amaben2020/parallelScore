@@ -1,0 +1,22 @@
+.autograph__collection {
+	background-color: black;
+	color: white;
+	width: 21vw;
+	height: 5vh;
+	padding: 0.4rem;
+	position: absolute;
+	top: 25%;
+	right: 1%;
+
+	&--link {
+		color: white;
+		text-decoration: none;
+		font-size: 1.3rem;
+		font-weight: 600;
+
+		@media (max-width: 500px) {
+			font-size: 1rem;
+			font-weight: 600;
+		}
+	}
+}

@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%; //1rem = 10px so 10px/16px = 0.625 => 62.5%
+
+	//Using media-query mixings
+	@include respond(tab-land) {
+		font-size: 56.25%; // where 1rem = 9px, 9px/16px = 0.5625 => 56.25%
+	}
+
+	//Put the 600-900px media query below the 900-1200px to avoid overwriting
+	@include respond(tab-port) {
+		font-size: 50%; //  1rem = 8px, 8/16 = 50%
+	}
+
+	@include respond(big-desktop) {
+		font-size: 75%; //  1rem = 12px, 12/16 = 75%
+	}
+}
+
+body {
+	font-family: "Lato", "sans-serif";
+	/* font-size: 16px; */
+	line-height: 1.7;
+	color: #777;
+	// padding: 3rem;
+	box-sizing: border-box;
+
+	@include respond(tab-port) {
+		padding: 0;
+	}
+}
+
+//Change the color to green and white background
+::selection {
+	background-color: $color-primary;
+	color: #fff;
+}

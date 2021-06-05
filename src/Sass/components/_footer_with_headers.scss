@@ -1,0 +1,596 @@
+.footer_headers {
+	width: 85vw;
+	border: 2px solid grey;
+	margin: 7vw;
+	position: relative;
+
+	&--line-1 {
+		display: flex;
+		justify-content: flex-start;
+		padding-top: 2rem;
+		flex-wrap: wrap;
+		padding-left: 3rem;
+		font-size: 1.2rem;
+		font-weight: 600;
+
+		@media (max-width: 1300px) {
+			&--line-1 {
+				justify-content: center;
+			}
+		}
+
+		&--text--1 {
+			margin-top: 3rem;
+			// width: auto;
+		}
+
+		&__child {
+			justify-content: center;
+			margin-left: 26.3vw;
+			display: flex;
+			justify-content: center;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+
+			&-1 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 2rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+				justify-content: space-between;
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+			&-2 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/react-js.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 2rem;
+				justify-content: space-between;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+			&-3 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/windows.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 2rem;
+				justify-content: space-between;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+			&-4 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/redux.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 2rem;
+				justify-content: space-between;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+		}
+	}
+
+	&--line-2 {
+		display: flex;
+		justify-content: flex-start;
+		padding: 0.1rem;
+		flex-wrap: wrap;
+		padding-top: 2rem;
+		padding-left: 3rem;
+		font-size: 1.2rem;
+		font-weight: 600;
+
+		// @media (max-width: 1300px) {
+		// 	&--line-2 {
+		// 		justify-content: center;
+		// 		width: 100%;
+		// 		padding-top: 2rem;
+		// 	}
+		// }
+
+		&--text--2 {
+			margin-top: 3rem;
+		}
+
+		&__child {
+			justify-content: center;
+			margin-left: 10vw;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+
+			&-1 {
+				padding: 3rem;
+				background-image: url(./../../img/logo/programmer.svg);
+				background-repeat: no-repeat;
+				width: 4rem;
+				margin: 0.5rem 1.5rem;
+
+				justify-content: space-between;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+
+			&-2 {
+				padding: 3rem;
+				background-image: url(./../../img/logo/website-seo.svg);
+				background-repeat: no-repeat;
+				width: 4rem;
+				margin: 0.5rem 1.5rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+
+			&-3 {
+				padding: 3rem;
+				background-image: url(./../../img/logo/mobile-ui-ux.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.5rem 1.5rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+
+			&-4 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.5rem 2rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+			&-5 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.5rem 2rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+			&-6 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.5rem 2rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+			&-7 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.5rem 2rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+			&-8 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.5rem 2rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+			&-9 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.5rem 2rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+			&-10 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.5rem 2rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+			&-11 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.5rem 2rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+		}
+	}
+
+	&--line-3 {
+		display: flex;
+		justify-content: flex-start;
+		padding-top: 2rem;
+		flex-wrap: wrap;
+		padding-left: 3rem;
+		font-size: 1.2rem;
+		font-weight: 600;
+
+		&--text--3 {
+			margin-top: 3rem;
+		}
+
+		&__child {
+			justify-content: center;
+			margin-left: 15vw;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+
+			&-1 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.2rem 2rem;
+
+				justify-content: space-between;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+
+			&-2 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.2rem 2rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+
+			&-3 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.2rem 2rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+
+			&-4 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.2rem 2rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+			&-5 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.2rem 2rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+			&-6 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.2rem 2rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+			&-7 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.2rem 2rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+			&-8 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.2rem 2rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+		}
+	}
+
+	&--line-4 {
+		display: flex;
+		justify-content: flex-start;
+		padding-top: 2rem;
+		flex-wrap: wrap;
+		padding-left: 3rem;
+		font-size: 1.2rem;
+		font-weight: 600;
+		margin-bottom: 2rem;
+
+		@media (max-width: 1300px) {
+			&--line-4 {
+				justify-content: center;
+			}
+		}
+
+		&--text--4 {
+			margin-top: 3rem;
+		}
+
+		&__child {
+			justify-content: center;
+			margin-left: 21vw;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+
+			&-1 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.2rem 2rem;
+
+				justify-content: space-between;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+
+			&-2 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.2rem 2rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+
+			&-3 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.2rem 2rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+
+			&-4 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.2rem 2rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+			&-5 {
+				padding: 2rem;
+				background-image: url(./../../img/logo/first-medal.svg);
+				background-repeat: no-repeat;
+				width: 2rem;
+				margin: 0.2rem 2rem;
+				opacity: 0.8 !important;
+				filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+				box-shadow: 0 0 0px #000000 !important;
+
+				&:hover {
+					opacity: 0.5 !important;
+					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+					box-shadow: 0 0 0px #000000 !important;
+				}
+			}
+		}
+	}
+
+	&--logo {
+		height: 10vh;
+		width: 14vw;
+		color: black;
+		background-color: rgb(255, 255, 255);
+		position: absolute;
+		right: 40%;
+		top: -15%;
+	}
+}

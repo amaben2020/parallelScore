@@ -1,0 +1,13 @@
+.navbar_secondary {
+	display: flex;
+	position: absolute;
+	font-size: 2rem;
+	height: 4vh;
+	padding: 0.2rem;
+	left: 70%;
+
+	&--item-1 {
+		justify-content: flex-end;
+		padding: 1rem;
+	}
+}

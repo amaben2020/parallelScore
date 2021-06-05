@@ -1,0 +1,48 @@
+@mixin absoluteCentering {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	//Very powerful when using absolute positioning, it aligns itself perfectly
+	transform: translate(-50%, -50%);
+}
+
+/*
+0 - 600px Phone
+600 - 900px Tablet Portrait
+900 - 1200px Tablet Landscape
+1200 - 1800px Desktop
+1800 + - Big Desktop
+*/
+
+@mixin respond($breakpoint) {
+	@if $breakpoint == phone {
+		@media (max-width: 600px) {
+			//600/16 , 16 is the browser root font
+			// font-size: 37.5em;
+			@content;
+		}
+	}
+
+	@if $breakpoint == tab-port {
+		@media (max-width: 900px) {
+			//900/16 , 16 is the browser root font
+			// font-size: 56.25em;
+			@content;
+		}
+	}
+
+	@if $breakpoint == tab-land {
+		@media (max-width: 1200px) {
+			// font-size: 75em;
+			@content;
+		}
+	}
+
+	@if $breakpoint == big-desktop {
+		@media (min-width: 1800) {
+			//1200/16 , 16 is the browser root font
+			// font-size: 80em;
+			@content;
+		}
+	}
+}

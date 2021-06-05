@@ -1,0 +1,190 @@
+.navigation {
+	//removing checkbox
+	&__checkbox {
+		display: none;
+	}
+
+	//navigation background, links styling and covers the screen when the checkbox is clicked
+	&__nav {
+		height: 100vh;
+		width: 0;
+		position: fixed;
+		top: 0;
+		//so the animations moves from right to left
+		left: 0;
+		z-index: 1500;
+		opacity: 0;
+		background: linear-gradient($color-primary-light, $color-primary-dark);
+		transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	}
+
+	//Powerful feature that allows the navigation list show when clicked
+	&__checkbox:checked ~ &__background {
+		//scale is used to make it grow
+		transform: scale(80);
+	}
+
+	//Remember that the nav opacity is zero? This makes it 1 (visible) when clicked
+	&__checkbox:checked ~ &__nav {
+		width: 100%;
+		opacity: 1;
+	}
+
+	//rotating the X and =
+	&__checkbox:checked + &__button &__icon {
+		background-color: transparent;
+	}
+	//rotating the X and =
+	&__checkbox:checked + &__button &__icon::before {
+		transform: rotate(135deg);
+		top: 0;
+	}
+	//rotating the X and =
+	&__checkbox:checked + &__button &__icon::after {
+		transform: rotate(-135deg);
+		top: 0;
+	}
+
+	//styling the navigation links i.e About, Home etc.
+	&__link {
+		&:link,
+		&:visited {
+			display: inline-block;
+			font-size: 3rem;
+			background-size: 220%;
+			padding: 3rem 2rem;
+			font-weight: 300;
+			transition: all 0.4s;
+			color: $color-primary-white;
+			z-index: 30;
+			text-transform: uppercase;
+			text-decoration: none;
+			background-image: linear-gradient(
+				120deg,
+				transparent 0%,
+				transparent 50%,
+				$color-primary-white 50%
+			);
+		}
+
+		//span is an element not a class
+		span {
+			margin-left: 1.5rem;
+			display: inline-block;
+			font-size: 3rem;
+		}
+
+		//Enables hover style
+		&:hover,
+		&:active {
+			background-position: 100%;
+			color: $color-primary;
+			transform: translateX(1rem);
+		}
+	}
+
+	//styling the list that houses the li's
+	&__list {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		list-style: none;
+		text-align: center;
+		//width so the list covers the entire page
+		width: 100%;
+	}
+	//each item in the navigation list
+	&__item {
+		margin: 1rem;
+	}
+
+	//styling the X and - round button (White)
+	&__button {
+		background-color: $color-primary-white;
+		z-index: 2000;
+		box-shadow: $box-shadow-primary;
+		height: 7rem;
+		width: 7rem;
+		position: fixed;
+		border-radius: 50%;
+		top: 6rem;
+		right: 6rem;
+		//centering the X and =
+		text-align: center;
+		cursor: pointer;
+
+		@include respond(tab-port) {
+			top: 4rem;
+			right: 4rem;
+		}
+		@include respond(phone) {
+			top: 3rem;
+			right: 3rem;
+		}
+	}
+	//Expanding the = sign
+	&__button:hover &__icon::before {
+		top: -1rem;
+	}
+	&__button:hover &__icon::after {
+		top: 1rem;
+	}
+
+	//style for the white (Green) button's background
+	&__background {
+		height: 6rem;
+		width: 6rem;
+		border-radius: 50%;
+		position: fixed;
+		top: 6.5rem;
+		right: 6.5rem;
+		background-image: radial-gradient(
+			$color-primary-light,
+			$color-primary-dark
+		);
+		transition: all 0.8s cubic-bezier(0.86, 0, 0.007, 1);
+
+		@include respond(tab-port) {
+			top: 4.5rem;
+			right: 4.5rem;
+		}
+		@include respond(phone) {
+			top: 3.5rem;
+			right: 3.5rem;
+		}
+	}
+
+	//styling the cross icon
+	&__icon {
+		position: relative;
+		margin-top: 3.5rem;
+
+		//styling the before and after icon X =
+		&,
+		&::before,
+		&::after {
+			width: 3rem;
+			height: 2px;
+			background-color: $color-grey-dark-2;
+			display: inline-block;
+		}
+
+		//Giving the pseudo classes a content
+		&::before,
+		&::after {
+			content: "";
+			position: absolute;
+			left: 0;
+			transition: all 0.2s;
+		}
+		//creating the =
+		&::before {
+			top: -0.8rem;
+		}
+		//Creating the X
+		&::after {
+			top: 0.8rem;
+		}
+	}
+}

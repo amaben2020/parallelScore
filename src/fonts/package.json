@@ -1,0 +1,14 @@
+{
+	"name": "natours",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "node-sass sass/main.scss css/style.css -w"
+	},
+	"author": "Amara Uzochukwu",
+	"license": "MIT",
+	"description": "",
+	"devDependencies": {
+		"node-sass": "^6.0.0"
+	}
+}
