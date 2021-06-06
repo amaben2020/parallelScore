@@ -101,15 +101,15 @@
 
 	//styling the X and - round button (White)
 	&__button {
-		background-color: $color-primary-white;
+		background-color: rgba(255, 0, 0, 0);
 		z-index: 2000;
-		box-shadow: $box-shadow-primary;
+		// box-shadow: $box-shadow-primary;
 		height: 7rem;
 		width: 7rem;
 		position: fixed;
-		border-radius: 50%;
+		// border-radius: 50%;
 		top: 6rem;
-		right: 6rem;
+		left: 3rem;
 		//centering the X and =
 		text-align: center;
 		cursor: pointer;
@@ -121,6 +121,19 @@
 		@include respond(phone) {
 			top: 3rem;
 			right: 3rem;
+		}
+
+		@include respond(tab-land) {
+			top: 3rem;
+			right: 3rem;
+		}
+
+		@media (max-width: 768px) {
+			background-color: rgba(255, 0, 0, 0);
+		}
+
+		@media (min-width: 768px) {
+			display: none;
 		}
 	}
 	//Expanding the = sign
@@ -138,7 +151,8 @@
 		border-radius: 50%;
 		position: fixed;
 		top: 6.5rem;
-		right: 6.5rem;
+		left: 6.5rem;
+		display: none;
 		background-image: radial-gradient(
 			$color-primary-light,
 			$color-primary-dark

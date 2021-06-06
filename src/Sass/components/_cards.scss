@@ -19,8 +19,9 @@
 		left: 0;
 		backface-visibility: hidden;
 		border-radius: 3px;
-		box-shadow: #000;
+		box-shadow: 0 1rem 2rem rgba(#000, 0.5);
 		overflow: hidden;
+		border: 0.4px solid rgba(0, 0, 0, 0.575);
 
 		&--front {
 			background-color: white;
@@ -29,11 +30,7 @@
 			background-color: gray;
 			transform: rotateY(180deg);
 			&-1 {
-				background-image: linear-gradient(
-					to right bottom,
-					rgb(139, 137, 137),
-					#000
-				);
+				background-image: linear-gradient(to right bottom, #ff9662, #000);
 			}
 		}
 	}

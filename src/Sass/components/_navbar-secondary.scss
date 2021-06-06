@@ -9,5 +9,39 @@
 	&--item-1 {
 		justify-content: flex-end;
 		padding: 1rem;
+
+		&__first {
+			display: flex;
+
+			&--image {
+				margin-right: 0.5rem;
+
+				@media (max-width: 1200px) {
+					margin-top: 6vh;
+					margin-right: 3vw;
+				}
+
+				@media (max-width: 780px) {
+					margin-top: 6vh;
+					margin-right: 3vw;
+				}
+
+				@media (max-width: 680px) {
+					margin-top: 6vh;
+					margin-right: 3vw;
+				}
+			}
+			&--text {
+				font-size: 1.3rem;
+				font-weight: 100;
+				letter-spacing: 1;
+				font-family: proxima-nova, Helvetica, Arial, sans-serif;
+				color: black;
+
+				@media (max-width: 780px) {
+					display: none;
+				}
+			}
+		}
 	}
 }

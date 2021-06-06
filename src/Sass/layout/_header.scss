@@ -5,20 +5,34 @@ header {
 	background-size: cover;
 	background-position: top;
 	z-index: -2;
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
+	padding: 8rem;
+	padding-top: 4rem;
+	display: grid;
+	grid-template-rows: 1fr min-content minmax(6rem, min-content) 1fr;
+	grid-template-columns: minmax(min-content, max-content);
+	grid-row-gap: 1.5rem;
+	justify-content: flex-start;
 
-	//reducing the clip-path]
-	//Transforming the columns to 100% width on tablet portrait
-	// @include respond(phone) {
-	// 	clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-	// 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-	// }
+	@media (max-width: 700px) {
+		height: 50vh;
+	}
+
+	@media (max-width: 500px) {
+		height: 30vh;
+	}
+
+	@media (max-width: 900px) {
+		height: 72vh;
+	}
 
 	//This would work on 600px screen and above
 	@media (min-resolution: 192dpi) and (min-width: 37.5em) {
-		background-image: url(./../../img/hero.jpg);
+		background-image: url(./../../img/pscore.jpg);
 	}
 
-	//header is OUTDOORS and the button being
+	//header section
 	.header {
 		&__text-box {
 			position: absolute;
@@ -27,29 +41,19 @@ header {
 			transform: translate(-50%, -50%);
 			text-align: left;
 			margin-left: -5vw;
+			justify-content: flex-start;
 
-			@media (max-width: 1519px) {
-				left: 34%;
-			}
+			// @media (max-width: 1519px) {
+			// 	left: 34%;
+			// }
 
-			@media (max-width: 1425px) {
-				left: 36%;
-			}
+			// @media (max-width: 1425px) {
+			// 	left: 36%;
+			// }
 
-			@media (max-width: 700px) {
-				left: 50%;
-			}
-		}
-		&__logo-box {
-			position: absolute;
-			top: 4rem;
-			left: 4rem;
-		}
-		&__logo {
-			height: 3.5rem;
-		}
-		&__logo:hover {
-			animation: moveInLeft 1s ease-in;
+			// @media (max-width: 700px) {
+			// 	left: 50%;
+			// }
 		}
 	}
 }

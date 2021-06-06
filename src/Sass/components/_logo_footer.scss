@@ -1,9 +1,8 @@
-.logo {
-	height: 21vh;
-	width: 22vh;
-	background: #231c19;
-	margin-left: 13vh;
-	box-shadow: 0 1.5rem 4rem rgba($color: #cecece, $alpha: 0.65);
+.logo--footer {
+	height: 12vh;
+	width: 29vh;
+	background: #fff;
+	margin-left: 0vh;
 
 	@media (max-width: 700px) {
 		height: 20vh;
@@ -13,13 +12,13 @@
 		font-size: 2rem;
 		text-decoration: none;
 		text-transform: uppercase;
-		color: white;
+		color: rgb(0, 0, 0);
 		font-weight: 600;
-		padding-top: 5.3rem;
+		padding-top: 2.3rem;
 		font-family: Arial, Helvetica, sans-serif;
 		//font-family: BrandLogoIcons;
 		-webkit-font-smoothing: antialiased;
-		letter-spacing: 0.4rem;
+		letter-spacing: 0.9rem;
 		position: relative;
 		display: inline-block;
 		font-stretch: expanded;
@@ -27,19 +26,20 @@
 		line-height: 1.1;
 
 		&--word {
-			font-size: 1.2rem;
+			font-size: 1.5rem;
 			letter-spacing: 0.2rem;
 			font-stretch: expanded;
 			transform: scaleY(1.1);
+			display: block;
 
 			&::after {
 				content: "";
 				height: 3px;
 				width: 11%;
 				position: absolute;
-				left: 62%;
+				left: 68%;
 				// left: calc(50% -40%);
-				bottom: 4px;
+				bottom: -105%;
 				background: #ff9662;
 			}
 

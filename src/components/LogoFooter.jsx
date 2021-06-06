@@ -6,10 +6,10 @@ export const LogoFooter = () => {
 	const text = Object.values(logoText).map((text) => text);
 	return (
 		<Link to="/" style={{ textDecoration: "none" }}>
-			<div className="logo">
-				<p className="logo__text">
+			<div className="logo--footer">
+				<p className="logo--footer__text">
 					{" "}
-					<span className="logo__text--word">{text} </span> Bonv
+					<span className="logo--footer__text--word">{text} </span> Bonv
 					<span
 						style={{
 							marginLeft: "-10px",
@@ -22,7 +22,7 @@ export const LogoFooter = () => {
 						o
 					</span>
 					y {/* <span className="logo__text--word__1">o</span>y{""} */}
-					<span className="logo__text--word__2"> &trade; </span>
+					<span className="logo--footer__text--word__2"> &trade; </span>
 				</p>
 			</div>
 		</Link>
