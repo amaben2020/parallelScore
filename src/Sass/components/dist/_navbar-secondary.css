@@ -8,10 +8,11 @@
 }
 .navbar_secondary--item-1 {
   justify-content: flex-end;
-  padding: 1rem;
+  padding: 1.2rem;
 }
 .navbar_secondary--item-1__first {
   display: flex;
+  justify-content: space-around;
 }
 .navbar_secondary--item-1__first:hover {
   background: #e7e7e7;
@@ -49,4 +50,24 @@
   .navbar_secondary--item-1__first--text {
     display: none;
   }
+}
+.navbar_secondary--item-1__first--globe {
+  width: 17.5px;
+  padding-top: -1vh;
+  color: rgba(0, 0, 0, 0.678);
+}
+.navbar_secondary--item-1__first--user {
+  width: 17.5px;
+  padding-top: -1vh;
+  color: rgba(0, 0, 0, 0.678);
+}
+.navbar_secondary--item-1__first--help {
+  width: 17.5px;
+  padding-top: -1vh;
+  color: rgba(0, 0, 0, 0.678);
+}
+.navbar_secondary--item-1__first--trip {
+  width: 17.5px;
+  color: rgba(0, 0, 0, 0.678);
+  padding-top: -1vh;
 }

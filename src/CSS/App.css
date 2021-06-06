@@ -481,7 +481,7 @@
 .navigation__checkbox {
   display: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .navigation {
     display: none;
     backface-visibility: hidden;
@@ -561,31 +561,13 @@
   z-index: 2000;
   height: 7rem;
   width: 7rem;
-  position: fixed;
-  top: 6rem;
+  margin-left: 2vw;
+  top: 5rem;
   left: 3rem;
   text-align: center;
   cursor: pointer;
 }
-@media (max-width: 900px) {
-  .navigation__button {
-    top: 2rem;
-    right: 4rem;
-  }
-}
 @media (max-width: 600px) {
-  .navigation__button {
-    top: 3rem;
-    right: 3rem;
-  }
-}
-@media (max-width: 900px) {
-  .navigation__button {
-    top: 3rem;
-    right: 3rem;
-  }
-}
-@media (max-width: 1200px) {
   .navigation__button {
     top: 3rem;
     right: 3rem;
@@ -602,10 +584,10 @@
   }
 }
 .navigation__button:hover .navigation__icon::before {
-  top: -1rem;
+  top: -0.7rem;
 }
 .navigation__button:hover .navigation__icon::after {
-  top: 1rem;
+  top: 0.7rem;
 }
 .navigation__background {
   height: 6rem;
@@ -949,10 +931,11 @@
 }
 .navbar_secondary--item-1 {
   justify-content: flex-end;
-  padding: 1rem;
+  padding: 1.2rem;
 }
 .navbar_secondary--item-1__first {
   display: flex;
+  justify-content: space-around;
 }
 .navbar_secondary--item-1__first:hover {
   background: #e7e7e7;
@@ -990,6 +973,26 @@
   .navbar_secondary--item-1__first--text {
     display: none;
   }
+}
+.navbar_secondary--item-1__first--globe {
+  width: 17.5px;
+  padding-top: -1vh;
+  color: rgba(0, 0, 0, 0.678);
+}
+.navbar_secondary--item-1__first--user {
+  width: 17.5px;
+  padding-top: -1vh;
+  color: rgba(0, 0, 0, 0.678);
+}
+.navbar_secondary--item-1__first--help {
+  width: 17.5px;
+  padding-top: -1vh;
+  color: rgba(0, 0, 0, 0.678);
+}
+.navbar_secondary--item-1__first--trip {
+  width: 17.5px;
+  color: rgba(0, 0, 0, 0.678);
+  padding-top: -1vh;
 }
 
 .autograph__collection {

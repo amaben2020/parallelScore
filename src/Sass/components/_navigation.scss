@@ -4,7 +4,7 @@
 		display: none;
 	}
 
-	@media (min-width: 768px) {
+	@media (min-width: 769px) {
 		display: none;
 		backface-visibility: hidden;
 	}
@@ -114,55 +114,24 @@
 		margin: 1rem;
 	}
 
-	//styling the X and - round button (White)
+	//styling the X and button (White)
 	&__button {
 		background-color: rgba(255, 0, 0, 0);
 		z-index: 2000;
-		// box-shadow: $box-shadow-primary;
 		height: 7rem;
 		width: 7rem;
-		position: fixed;
-		// border-radius: 50%;
-		top: 6rem;
+		// position: fixed;
+		margin-left: 2vw;
+		top: 5rem;
 		left: 3rem;
 		//centering the X and =
 		text-align: center;
 		cursor: pointer;
 
-		@media (max-width: 900px) {
-			top: 2rem;
-			right: 4rem;
-		}
-
-		// @include respond(tab-port) {
-		// 	top: 2rem;
-		// 	right: 4rem;
-		// }
-
 		@media (max-width: 600px) {
 			top: 3rem;
 			right: 3rem;
 		}
-
-		// @include respond(phone) {
-		// 	top: 3rem;
-		// 	right: 3rem;
-		// }
-
-		@media (max-width: 900px) {
-			top: 3rem;
-			right: 3rem;
-		}
-
-		@media (max-width: 1200px) {
-			top: 3rem;
-			right: 3rem;
-		}
-
-		// @include respond(tab-land) {
-		// 	top: 3rem;
-		// 	right: 3rem;
-		// }
 
 		@media (max-width: 768px) {
 			background-color: rgba(255, 0, 0, 0);
@@ -174,10 +143,10 @@
 	}
 	//Expanding the = sign
 	&__button:hover &__icon::before {
-		top: -1rem;
+		top: -0.7rem;
 	}
 	&__button:hover &__icon::after {
-		top: 1rem;
+		top: 0.7rem;
 	}
 
 	//style for the white (Green) button's background

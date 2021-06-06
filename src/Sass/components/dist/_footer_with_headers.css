@@ -371,6 +371,11 @@
     margin-left: 18vw;
   }
 }
+@media (max-width: 411px) {
+  .footer_headers--line-2__child-8 {
+    margin-left: 5vw;
+  }
+}
 .footer_headers--line-2__child-8:hover {
   opacity: 0.5 !important;
   filter: alpha(opacity=70) !important;
@@ -723,6 +728,11 @@
     margin-left: -2vw;
   }
 }
+@media (max-width: 411px) {
+  .footer_headers--line-4__child-1 {
+    margin-left: -10vw;
+  }
+}
 @media (max-width: 375px) {
   .footer_headers--line-4__child-1 {
     margin-left: -13vw;
@@ -818,6 +828,11 @@
   .footer_headers--line-4__child-5 {
     width: 3rem;
     margin: 3rem;
+  }
+}
+@media (max-width: 411px) {
+  .footer_headers--line-4__child-5 {
+    margin-right: 20vw;
   }
 }
 @media (max-width: 375px) {
