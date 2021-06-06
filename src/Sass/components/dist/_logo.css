@@ -44,9 +44,15 @@
     width: 18vh;
   }
 }
+@media (max-width: 411px) {
+  .logo {
+    height: 10.8vh;
+    width: 14vh;
+  }
+}
 @media (max-width: 375px) {
   .logo {
-    height: 12vh;
+    height: 11vh;
     width: 14vh;
   }
 }
@@ -104,6 +110,11 @@
     display: block;
     font-size: 1.34rem;
     margin-top: 0.3rem;
+  }
+}
+@media (max-width: 411px) {
+  .logo__text--word {
+    margin-top: -1rem;
   }
 }
 @media (max-width: 375px) {

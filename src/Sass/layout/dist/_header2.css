@@ -19,17 +19,17 @@
 }
 @media (max-width: 768px) {
   .header__btn {
-    margin-left: 2.8vw;
+    margin-left: -0.1vw;
   }
 }
 @media (max-width: 414px) {
   .header__btn {
-    margin-left: 6vw;
+    margin-left: -6vw;
   }
 }
 @media (max-width: 375px) {
   .header__btn {
     font-size: 1.4rem;
-    margin-left: 5vw;
+    margin-left: -5vw;
   }
 }

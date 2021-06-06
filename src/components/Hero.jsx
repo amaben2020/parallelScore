@@ -1,24 +1,18 @@
 import React from "react";
-import headerText from "./../../src/data/header.json";
+import "./../Sass/layout/_header2.scss";
+import headerText from "../data/header.json";
 import AutographCollection from "./AutographCollection";
-import { Link } from "react-router-dom";
 const Hero = () => {
 	const hText = Object.keys(headerText).map((h) => headerText.text1);
 	return (
-		<div>
-			<header className="header">
-				<AutographCollection />
-				<div className="header__text-box">
-					<h1 className="heading-primary">
-						<span className="heading-primary--main">{hText} </span>
-					</h1>
-
-					<Link href="/#" className="btn btn--white btn--animated">
-						Learn More{" "}
-					</Link>
-				</div>
-			</header>
-		</div>
+		<header className="header">
+			<AutographCollection />
+			<h3 className="heading-3" style={{ opacity: 0 }}>
+				just need an invisible item on the screen... OOps
+			</h3>
+			<h1 className="heading-1 heading-primary--main">{hText}</h1>
+			<button className="btn header__btn">Learn More</button>
+		</header>
 	);
 };
 
