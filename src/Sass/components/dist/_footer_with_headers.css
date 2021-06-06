@@ -723,6 +723,11 @@
     margin-left: -2vw;
   }
 }
+@media (max-width: 375px) {
+  .footer_headers--line-4__child-1 {
+    margin-left: -13vw;
+  }
+}
 .footer_headers--line-4__child-1:hover {
   opacity: 0.5 !important;
   filter: alpha(opacity=70) !important;
@@ -815,6 +820,11 @@
     margin: 3rem;
   }
 }
+@media (max-width: 375px) {
+  .footer_headers--line-4__child-5 {
+    margin-right: 20vw;
+  }
+}
 .footer_headers--line-4__child-5:hover {
   opacity: 0.5 !important;
   filter: alpha(opacity=70) !important;
@@ -825,7 +835,7 @@
   height: 10vh;
   width: 14vw;
   color: black;
-  background-color: white;
+  background-color: rgba(114, 26, 26, 0);
   position: absolute;
   right: 40%;
   top: -15%;

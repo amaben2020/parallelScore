@@ -1,9 +1,10 @@
 import React from "react";
 import "./../Sass/components/_navbar-secondary.scss";
-import user from "./../img/logo/user.png";
-import trip from "./../img/logo/trip.png";
-import help from "./../img/logo/help.png";
-import earth from "./../img/logo/earth.png";
+import earth from "./../img/logo-nav/globe.svg";
+import user from "./../img/logo-nav/user.svg";
+import trip from "./../img/logo-nav/trip.svg";
+import help from "./../img/logo-nav/help.svg";
+
 const NavBarSecondary = () => {
 	return (
 		<div className="navbar_secondary">
@@ -15,11 +16,8 @@ const NavBarSecondary = () => {
 						style={{ width: "1.5rem" }}
 						src={earth}
 					/> */}
-					&#x1F30D; e853
-					<p className="navbar_secondary--item-1__first--text">
-						{" "}
-						English{" "}
-					</p>{" "}
+					&#x1F30D;
+					<p className="navbar_secondary--item-1__first--text">English </p>{" "}
 				</div>
 			</nav>
 

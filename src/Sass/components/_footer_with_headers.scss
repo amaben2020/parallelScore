@@ -680,6 +680,9 @@
 					margin: 3rem;
 					margin-left: -2vw;
 				}
+				@media (max-width: 375px) {
+					margin-left: -13vw;
+				}
 
 				&:hover {
 					opacity: 0.5 !important;
@@ -744,6 +747,7 @@
 					width: 3rem;
 					margin: 3rem;
 				}
+
 				&:hover {
 					opacity: 0.5 !important;
 					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
@@ -764,6 +768,10 @@
 					margin: 3rem;
 				}
 
+				@media (max-width: 375px) {
+					margin-right: 20vw;
+				}
+
 				&:hover {
 					opacity: 0.5 !important;
 					filter: alpha(opacity=70) !important; /* For IE8 and earlier */
@@ -777,7 +785,7 @@
 		height: 10vh;
 		width: 14vw;
 		color: black;
-		background-color: rgb(255, 255, 255);
+		background-color: rgba(114, 26, 26, 0);
 		position: absolute;
 		right: 40%;
 		top: -15%;

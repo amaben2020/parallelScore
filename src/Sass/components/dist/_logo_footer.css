@@ -4,10 +4,18 @@
   background: #fff;
   margin-left: 0vh;
 }
+@media (max-width: 1024px) {
+  .logo--footer {
+    margin-left: -5vw;
+    margin-top: 0.9vh;
+    height: 10vh;
+    width: 18vh;
+  }
+}
 @media (max-width: 768px) {
   .logo--footer {
     margin-left: -8vw;
-    margin-top: 1.9vh;
+    margin-top: 7.9vh;
     height: 12vh;
     width: 20vh;
   }
@@ -18,19 +26,44 @@
     width: 20vh;
   }
 }
+@media (max-width: 540px) {
+  .logo--footer {
+    height: 7vh;
+    width: 20vh;
+    margin-top: 14vh;
+  }
+}
 @media (max-width: 414px) {
   .logo--footer {
-    margin-top: 9vh;
+    margin-top: 18vh;
+    height: 10vh;
+  }
+}
+@media (max-width: 411px) {
+  .logo--footer {
+    margin-top: 16.5vh;
+    margin-left: -12vw;
   }
 }
 @media (max-width: 375px) {
   .logo--footer {
-    margin-top: 9vh;
+    margin-top: 18vh;
+    height: 9vh;
+    width: 20vh;
+    margin-left: -12vw;
+  }
+}
+@media (max-width: 360px) {
+  .logo--footer {
+    margin-top: 23vh;
+    height: 7vh;
+    width: 20vh;
+    margin-left: -12vw;
   }
 }
 @media (max-width: 320px) {
   .logo--footer {
-    margin-top: 14vh;
+    margin-top: 34vh;
   }
 }
 .logo--footer__text {
