@@ -222,7 +222,6 @@
   transition: all 0.8s ease;
   perspective: 150rem;
   -moz-perspective: 150rem;
-  transition: all ease-in;
 }
 @media (max-width: 900px) {
   .card {
@@ -481,24 +480,16 @@
 .navigation__checkbox {
   display: none;
 }
-@media (min-width: 768px) {
-  .navigation {
-    display: none;
-    backface-visibility: hidden;
-  }
-}
 .navigation__nav {
   height: 100vh;
   width: 0;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -4;
+  z-index: 1500;
   opacity: 0;
-  background: #fff;
+  background: linear-gradient(#7ed56f, #28b485);
   transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  overflow: hidden;
-  border-top: 6px solid #231c19;
 }
 .navigation__checkbox:checked ~ .navigation__background {
   transform: scale(80);
@@ -519,19 +510,16 @@
   top: 0;
 }
 .navigation__link:link, .navigation__link:visited {
-  display: flex;
-  margin-bottom: 0.3vh;
-  padding-top: -3vh;
-  margin-left: 5vw;
-  font-size: 2.1rem;
+  display: inline-block;
+  font-size: 3rem;
   background-size: 220%;
-  padding: 1rem 0.5rem;
-  font-weight: 700;
+  padding: 3rem 2rem;
+  font-weight: 300;
   transition: all 0.4s;
-  color: black;
+  color: #fff;
   z-index: 30;
+  text-transform: uppercase;
   text-decoration: none;
-  border-bottom: 0.3px solid #c4c4c4;
   background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
 }
 .navigation__link span {
@@ -541,7 +529,8 @@
 }
 .navigation__link:hover, .navigation__link:active {
   background-position: 100%;
-  text-decoration: underline;
+  color: #55c57a;
+  transform: translateX(1rem);
 }
 .navigation__list {
   position: absolute;
@@ -551,7 +540,6 @@
   list-style: none;
   text-align: center;
   width: 100%;
-  margin-top: -6.5vh;
 }
 .navigation__item {
   margin: 1rem;
@@ -569,17 +557,11 @@
 }
 @media (max-width: 900px) {
   .navigation__button {
-    top: 2rem;
+    top: 4rem;
     right: 4rem;
   }
 }
 @media (max-width: 600px) {
-  .navigation__button {
-    top: 3rem;
-    right: 3rem;
-  }
-}
-@media (max-width: 900px) {
   .navigation__button {
     top: 3rem;
     right: 3rem;
@@ -615,7 +597,7 @@
   top: 6.5rem;
   left: 6.5rem;
   display: none;
-  background-image: radial-gradient(#fff, #f2f2f2);
+  background-image: radial-gradient(#7ed56f, #28b485);
   transition: all 0.8s cubic-bezier(0.86, 0, 0.007, 1);
 }
 @media (max-width: 900px) {
@@ -637,7 +619,7 @@
 .navigation__icon, .navigation__icon::before, .navigation__icon::after {
   width: 3rem;
   height: 2px;
-  background-color: #000;
+  background-color: #333;
   display: inline-block;
 }
 .navigation__icon::before, .navigation__icon::after {
@@ -953,10 +935,6 @@
 }
 .navbar_secondary--item-1__first {
   display: flex;
-}
-.navbar_secondary--item-1__first:hover {
-  background: #e7e7e7;
-  cursor: pointer;
 }
 .navbar_secondary--item-1__first--image {
   margin-right: 0.5rem;

@@ -1,0 +1,78 @@
+.logo--footer {
+  height: 12vh;
+  width: 29vh;
+  background: #fff;
+  margin-left: 0vh;
+}
+@media (max-width: 768px) {
+  .logo--footer {
+    margin-left: -8vw;
+    margin-top: 1.9vh;
+    height: 12vh;
+    width: 20vh;
+  }
+}
+@media (max-width: 700px) {
+  .logo--footer {
+    height: 20vh;
+    width: 20vh;
+  }
+}
+@media (max-width: 414px) {
+  .logo--footer {
+    margin-top: 9vh;
+  }
+}
+@media (max-width: 375px) {
+  .logo--footer {
+    margin-top: 9vh;
+  }
+}
+@media (max-width: 320px) {
+  .logo--footer {
+    margin-top: 14vh;
+  }
+}
+.logo--footer__text {
+  font-size: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #2e2d2d;
+  font-weight: 600;
+  padding-top: 2.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.9rem;
+  position: relative;
+  display: inline-block;
+  font-stretch: expanded;
+  transform: scaleY(1.1);
+  line-height: 1.1;
+  opacity: 0.9;
+}
+.logo--footer__text--word {
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  font-stretch: expanded;
+  transform: scaleY(1.1);
+  display: block;
+}
+.logo--footer__text--word::after {
+  content: "";
+  height: 3px;
+  width: 11%;
+  position: absolute;
+  left: 68%;
+  bottom: -105%;
+  background: #ff9662;
+}
+.logo--footer__text--word__1 {
+  font-size: 2rem;
+  border-bottom: 3px solid #800026;
+  margin-top: -5rem;
+  padding: -20px;
+}
+.logo--footer__text--word__2 {
+  font-size: 0.8rem;
+  position: absolute;
+}

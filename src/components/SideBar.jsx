@@ -1,6 +1,7 @@
 import React from "react";
-
+import { navlinks } from "./../data/nav_links.js";
 const Sidebar = () => {
+	console.log(typeof navlink);
 	return (
 		<div className="navigation">
 			<input
@@ -17,29 +18,44 @@ const Sidebar = () => {
 				<ul className="navigation__list">
 					<li className="navigation__item">
 						<a href="#" className="navigation__link">
-							<span>01</span> About Natours
+							Find & Reserve{" "}
+							<span
+								style={{
+									marginLeft: "60vw",
+									color: "black",
+									marginTop: "-1vh",
+								}}
+							>
+								&#10132;{" "}
+							</span>
 						</a>
 					</li>
 					<li className="navigation__item">
 						<a href="#" className="navigation__link">
-							<span>02</span> Your Benefits
+							Special Offers
 						</a>
 					</li>
 					<li className="navigation__item">
 						<a href="#" className="navigation__link">
-							<span>03</span> Popular Tours
+							Vacations
 						</a>
 					</li>
 					<li className="navigation__item">
 						<a href="#" className="navigation__link">
 							{" "}
-							<span>04</span> Stories
+							Our Brands
 						</a>
 					</li>
 					<li className="navigation__item">
 						<a href="#" className="navigation__link">
 							{" "}
-							<span>05</span> Book Now
+							Our Credit Cards
+						</a>
+					</li>
+					<li className="navigation__item">
+						<a href="#" className="navigation__link">
+							{" "}
+							About Marriott Bonvoy
 						</a>
 					</li>
 				</ul>

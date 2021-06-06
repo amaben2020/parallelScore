@@ -4,6 +4,11 @@
 		display: none;
 	}
 
+	@media (min-width: 768px) {
+		display: none;
+		backface-visibility: hidden;
+	}
+
 	//navigation background, links styling and covers the screen when the checkbox is clicked
 	&__nav {
 		height: 100vh;
@@ -12,10 +17,14 @@
 		top: 0;
 		//so the animations moves from right to left
 		left: 0;
-		z-index: 1500;
+		//formerly 1500
+
+		z-index: -4;
 		opacity: 0;
-		background: linear-gradient($color-primary-light, $color-primary-dark);
+		background: #fff;
 		transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+		overflow: hidden;
+		border-top: 6px solid #231c19;
 	}
 
 	//Powerful feature that allows the navigation list show when clicked
@@ -49,21 +58,25 @@
 	&__link {
 		&:link,
 		&:visited {
-			display: inline-block;
-			font-size: 3rem;
+			// display: inline-block;
+			display: flex;
+			margin-bottom: 0.3vh;
+			padding-top: -3vh;
+			margin-left: 5vw;
+			font-size: 2.1rem;
 			background-size: 220%;
-			padding: 3rem 2rem;
-			font-weight: 300;
+			padding: 1rem 0.5rem;
+			font-weight: 700;
 			transition: all 0.4s;
-			color: $color-primary-white;
+			color: rgb(0, 0, 0);
 			z-index: 30;
-			text-transform: uppercase;
 			text-decoration: none;
+			border-bottom: 0.3px solid rgb(196, 196, 196);
 			background-image: linear-gradient(
 				120deg,
 				transparent 0%,
 				transparent 50%,
-				$color-primary-white 50%
+				#fff 50%
 			);
 		}
 
@@ -78,8 +91,9 @@
 		&:hover,
 		&:active {
 			background-position: 100%;
-			color: $color-primary;
-			transform: translateX(1rem);
+
+			// transform: translateX(1rem);
+			text-decoration: underline;
 		}
 	}
 
@@ -93,6 +107,7 @@
 		text-align: center;
 		//width so the list covers the entire page
 		width: 100%;
+		margin-top: -6.5vh;
 	}
 	//each item in the navigation list
 	&__item {
@@ -114,25 +129,46 @@
 		text-align: center;
 		cursor: pointer;
 
-		@include respond(tab-port) {
-			top: 4rem;
+		@media (max-width: 900px) {
+			top: 2rem;
 			right: 4rem;
 		}
-		@include respond(phone) {
+
+		// @include respond(tab-port) {
+		// 	top: 2rem;
+		// 	right: 4rem;
+		// }
+
+		@media (max-width: 600px) {
 			top: 3rem;
 			right: 3rem;
 		}
 
-		@include respond(tab-land) {
+		// @include respond(phone) {
+		// 	top: 3rem;
+		// 	right: 3rem;
+		// }
+
+		@media (max-width: 900px) {
 			top: 3rem;
 			right: 3rem;
 		}
+
+		@media (max-width: 1200px) {
+			top: 3rem;
+			right: 3rem;
+		}
+
+		// @include respond(tab-land) {
+		// 	top: 3rem;
+		// 	right: 3rem;
+		// }
 
 		@media (max-width: 768px) {
 			background-color: rgba(255, 0, 0, 0);
 		}
 
-		@media (min-width: 768px) {
+		@media (min-width: 769px) {
 			display: none;
 		}
 	}
@@ -153,20 +189,27 @@
 		top: 6.5rem;
 		left: 6.5rem;
 		display: none;
-		background-image: radial-gradient(
-			$color-primary-light,
-			$color-primary-dark
-		);
+		background-image: radial-gradient(#fff, #f2f2f2);
 		transition: all 0.8s cubic-bezier(0.86, 0, 0.007, 1);
 
-		@include respond(tab-port) {
+		@media (max-width: 900px) {
 			top: 4.5rem;
 			right: 4.5rem;
 		}
-		@include respond(phone) {
+
+		@media (max-width: 600px) {
 			top: 3.5rem;
 			right: 3.5rem;
 		}
+
+		// @include respond(tab-port) {
+		// 	top: 4.5rem;
+		// 	right: 4.5rem;
+		// }
+		// @include respond(phone) {
+		// 	top: 3.5rem;
+		// 	right: 3.5rem;
+		// }
 	}
 
 	//styling the cross icon
@@ -180,7 +223,7 @@
 		&::after {
 			width: 3rem;
 			height: 2px;
-			background-color: $color-grey-dark-2;
+			background-color: #000;
 			display: inline-block;
 		}
 

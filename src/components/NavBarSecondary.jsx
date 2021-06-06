@@ -15,7 +15,7 @@ const NavBarSecondary = () => {
 						style={{ width: "1.5rem" }}
 						src={earth}
 					/> */}
-					&#x1F30D;
+					&#x1F30D; e853
 					<p className="navbar_secondary--item-1__first--text">
 						{" "}
 						English{" "}

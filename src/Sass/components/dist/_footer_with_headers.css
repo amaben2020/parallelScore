@@ -1,0 +1,832 @@
+.footer_headers {
+  width: 85vw;
+  border: 2px solid #bebcbc;
+  margin: 7vw;
+  position: relative;
+}
+.footer_headers--line-1 {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 2rem;
+  flex-wrap: wrap;
+  padding-left: 3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+@media (max-width: 1300px) {
+  .footer_headers--line-1--line-1 {
+    justify-content: center;
+  }
+}
+.footer_headers--line-1--text--1 {
+  margin-top: 3rem;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-1--text--1 {
+    width: 100%;
+    margin-top: 4.5vh;
+  }
+}
+.footer_headers--line-1__child {
+  justify-content: center;
+  margin-left: 22vw;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-1__child {
+    flex-grow: 0.9;
+    margin-left: 2vw;
+    margin-right: 4vw;
+  }
+}
+.footer_headers--line-1__child-1 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-1__child-1 {
+    width: 3rem;
+    margin: 3rem;
+  }
+}
+.footer_headers--line-1__child-1:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-1__child-2 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/react-js.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 2rem;
+  justify-content: space-between;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-1__child-2:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-1__child-3 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/windows.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 2rem;
+  justify-content: space-between;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-1__child-3:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-1__child-4 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/redux.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 2rem;
+  justify-content: space-between;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-1__child-4:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-1__child-5 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/redux.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 2rem;
+  justify-content: space-between;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-1__child-5:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-1__child-6 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/redux.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 2rem;
+  justify-content: space-between;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-1__child-6:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-2 {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.1rem;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.footer_headers--line-2--text--2 {
+  margin-top: 3rem;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-2--text--2 {
+    width: 100%;
+    padding-bottom: 1.5vh;
+  }
+}
+.footer_headers--line-2__child {
+  justify-content: center;
+  margin-left: 9vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-2__child {
+    flex-grow: 0.9;
+    flex-wrap: wrap;
+    margin-left: 2vw;
+    margin-right: 4vw;
+  }
+}
+.footer_headers--line-2__child-1 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/programmer.svg);
+  background-repeat: no-repeat;
+  width: 4rem;
+  margin: 0.5rem 2rem;
+  justify-content: space-between;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-2__child-1 {
+    width: 3rem;
+    margin: 3rem;
+  }
+}
+.footer_headers--line-2__child-1:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-2__child-2 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/website-seo.svg);
+  background-repeat: no-repeat;
+  width: 4rem;
+  margin: 0.5rem 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-2__child-2 {
+    width: 3rem;
+    margin: 3rem;
+  }
+}
+.footer_headers--line-2__child-2:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-2__child-3 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/mobile-ui-ux.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.5rem 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-2__child-3 {
+    width: 3rem;
+    margin: 3rem;
+  }
+}
+.footer_headers--line-2__child-3:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-2__child-4 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.5rem 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-2__child-4 {
+    width: 3rem;
+    margin: 3rem;
+  }
+}
+.footer_headers--line-2__child-4:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-2__child-5 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.5rem 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-2__child-5 {
+    width: 3rem;
+    margin: 3rem;
+  }
+}
+.footer_headers--line-2__child-5:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-2__child-6 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.5rem 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-2__child-6 {
+    width: 3rem;
+    margin: 3rem;
+  }
+}
+.footer_headers--line-2__child-6:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-2__child-7 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.5rem 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-2__child-7 {
+    width: 3rem;
+    margin: 3rem;
+  }
+}
+.footer_headers--line-2__child-7:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-2__child-8 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.5rem 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-2__child-8 {
+    width: 3rem;
+    margin: 3rem;
+    margin-left: 18vw;
+  }
+}
+.footer_headers--line-2__child-8:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-2__child-9 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.5rem 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-2__child-9 {
+    width: 3rem;
+    margin: 3rem;
+  }
+}
+.footer_headers--line-2__child-9:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-2__child-10 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.5rem 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-2__child-10 {
+    width: 3rem;
+    margin: 3rem;
+  }
+}
+.footer_headers--line-2__child-10:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-2__child-11 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.5rem 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-2__child-11 {
+    width: 3rem;
+    margin: 3rem;
+    margin-right: 18vw;
+  }
+}
+.footer_headers--line-2__child-11:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-3 {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 2rem;
+  flex-wrap: wrap;
+  padding-left: 3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-3 {
+    flex-grow: 0.9;
+    flex-wrap: wrap;
+    margin-left: -12vw;
+    margin-right: 1vw;
+  }
+}
+.footer_headers--line-3--text--3 {
+  margin-top: 3rem;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-3--text--3 {
+    width: 100%;
+    padding-bottom: 1.5vh;
+    margin-left: 14vw;
+  }
+}
+.footer_headers--line-3__child {
+  justify-content: center;
+  margin-left: 17vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer_headers--line-3__child-1 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.2rem 2rem;
+  justify-content: space-between;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-3__child-1 {
+    width: 3rem;
+    margin: 3rem;
+  }
+}
+.footer_headers--line-3__child-1:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-3__child-2 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.2rem 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-3__child-2 {
+    width: 3rem;
+    margin: 3rem;
+  }
+}
+.footer_headers--line-3__child-2:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-3__child-3 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.2rem 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-3__child-3 {
+    width: 3rem;
+    margin: 3rem;
+  }
+}
+.footer_headers--line-3__child-3:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-3__child-4 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.2rem 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-3__child-4 {
+    width: 3rem;
+    margin: 3rem;
+  }
+}
+.footer_headers--line-3__child-4:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-3__child-5 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.2rem 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-3__child-5 {
+    width: 3rem;
+    margin: 3rem;
+  }
+}
+.footer_headers--line-3__child-5:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-3__child-6 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.2rem 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-3__child-6 {
+    width: 3rem;
+    margin: 3rem;
+  }
+}
+.footer_headers--line-3__child-6:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-3__child-7 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.2rem 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-3__child-7 {
+    width: 3rem;
+    margin: 3rem;
+  }
+}
+.footer_headers--line-3__child-7:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-3__child-8 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.2rem 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-3__child-8 {
+    width: 3rem;
+    margin: 3rem;
+    margin-left: 35vw;
+  }
+}
+.footer_headers--line-3__child-8:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-4 {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 2rem;
+  flex-wrap: wrap;
+  padding-left: 3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+@media (max-width: 1300px) {
+  .footer_headers--line-4--line-4 {
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .footer_headers--line-4 {
+    flex-grow: 0.9;
+    flex-wrap: wrap;
+  }
+}
+.footer_headers--line-4--text--4 {
+  margin-top: 3rem;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-4--text--4 {
+    width: 100%;
+    padding-bottom: 1.5vh;
+  }
+}
+.footer_headers--line-4__child {
+  justify-content: center;
+  margin-left: 23vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer_headers--line-4__child-1 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.2rem 2rem;
+  justify-content: space-between;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-4__child-1 {
+    width: 3rem;
+    margin: 3rem;
+    margin-left: -2vw;
+  }
+}
+.footer_headers--line-4__child-1:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-4__child-2 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.2rem 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-4__child-2 {
+    width: 3rem;
+    margin: 3rem;
+  }
+}
+.footer_headers--line-4__child-2:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-4__child-3 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.2rem 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-4__child-3 {
+    width: 3rem;
+    margin: 3rem;
+  }
+}
+.footer_headers--line-4__child-3:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-4__child-4 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.2rem 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-4__child-4 {
+    width: 3rem;
+    margin: 3rem;
+  }
+}
+.footer_headers--line-4__child-4:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--line-4__child-5 {
+  padding: 1.7rem;
+  background-image: url(./../../img/logo/first-medal.svg);
+  background-repeat: no-repeat;
+  width: 2rem;
+  margin: 0.2rem 2rem;
+  opacity: 0.8 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+@media (max-width: 768px) {
+  .footer_headers--line-4__child-5 {
+    width: 3rem;
+    margin: 3rem;
+  }
+}
+.footer_headers--line-4__child-5:hover {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.footer_headers--logo {
+  height: 10vh;
+  width: 14vw;
+  color: black;
+  background-color: white;
+  position: absolute;
+  right: 40%;
+  top: -15%;
+}

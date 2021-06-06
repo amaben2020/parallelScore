@@ -13,6 +13,11 @@
 		&__first {
 			display: flex;
 
+			&:hover {
+				background: rgb(231, 231, 231);
+				cursor: pointer;
+			}
+
 			&--image {
 				margin-right: 0.5rem;
 

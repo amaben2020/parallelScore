@@ -1,5 +1,5 @@
 .heading-primary {
-	color: $color-primary-white;
+	color: #fff;
 	text-transform: uppercase;
 	margin-bottom: 0.1rem;
 
@@ -11,7 +11,7 @@
 		animation: moveInLeft 1s ease-in;
 		font-family: Swiss-721, Helvetica, Arial, sans-serif;
 		transform: scale(1.1);
-		text-shadow: 0 1rem 2.4rem rgba($color-black, 0.4);
+		text-shadow: 0 1rem 2.4rem rgba(#000, 0.4);
 		color: #fff;
 		margin-left: 1.5vw;
 
@@ -24,10 +24,35 @@
 			font-size: 4rem;
 		}
 
-		@include respond(phone) {
+		@media (max-width: 600px) {
 			font-size: 2.5rem;
 			transform: scaleY(1.9);
 			margin-left: 1.7vw;
+		}
+
+		// @include respond(phone) {
+		// 	font-size: 2.5rem;
+		// 	transform: scaleY(1.9);
+		// 	margin-left: 1.7vw;
+		// }
+
+		@media (max-width: 414px) {
+			font-size: 2.5rem;
+			margin-left: 6vw;
+		}
+		@media (max-width: 375px) {
+			font-size: 2.2rem;
+			margin-left: 6vw;
+		}
+
+		@media (max-width: 360px) {
+			font-size: 2rem;
+			margin-left: 6vw;
+		}
+
+		@media (max-width: 320px) {
+			font-size: 2rem;
+			margin-left: 6vw;
 		}
 	}
 	&--sub {
@@ -37,26 +62,31 @@
 		letter-spacing: 1.74rem;
 		animation: moveInRight 1s ease-in;
 
-		@include respond(phone) {
+		@media (max-width: 600px) {
 			letter-spacing: 0.5rem;
 		}
+
+		// @include respond(phone) {
+		// 	letter-spacing: 0.5rem;
+		// }
 	}
 
-	@include respond(phone) {
+	@media (max-width: 600px) {
 		letter-spacing: 1rem;
 		font-size: 5rem;
 	}
+
+	// @include respond(phone) {
+	// 	letter-spacing: 1rem;
+	// 	font-size: 5rem;
+	// }
 }
 
 .heading-secondary {
 	font-size: 3.5rem;
 	text-transform: uppercase;
 	font-weight: 700;
-	background-image: linear-gradient(
-		to right,
-		$color-primary-light,
-		$color-primary-dark
-	);
+	background-image: linear-gradient(to right, #000, #e75811);
 	display: inline-block;
 	-webkit-background-clip: text;
 	color: transparent;
@@ -64,16 +94,28 @@
 	letter-spacing: 2px;
 	&:hover {
 		transform: skewY(2deg) skewX(20deg) scale(1.1);
-		text-shadow: 0.5rem 1rem 2rem rgba($color: $color-black, $alpha: 0.2);
+		text-shadow: 0.5rem 1rem 2rem rgba($color: #000, $alpha: 0.2);
 	}
-	@include respond(tab-port) {
+
+	@media (max-width: 900px) {
 		letter-spacing: 1rem;
 		font-size: 3rem;
 	}
-	@include respond(phone) {
+
+	// @include respond(tab-port) {
+	// 	letter-spacing: 1rem;
+	// 	font-size: 3rem;
+	// }
+
+	@media (max-width: 600px) {
 		letter-spacing: 1rem;
 		font-size: 2.5rem;
 	}
+
+	// @include respond(phone) {
+	// 	letter-spacing: 1rem;
+	// 	font-size: 2.5rem;
+	// }
 }
 
 .heading-tertiary {

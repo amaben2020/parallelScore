@@ -21,5 +21,14 @@
 		@media (max-width: 768px) {
 			margin-left: 2.8vw;
 		}
+
+		@media (max-width: 414px) {
+			margin-left: 6vw;
+		}
+
+		@media (max-width: 375px) {
+			font-size: 1.4rem;
+			margin-left: 5vw;
+		}
 	}
 }

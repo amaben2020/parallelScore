@@ -4,10 +4,22 @@
 	transition: all 0.8s ease;
 	perspective: 150rem;
 	-moz-perspective: 150rem;
+	transition: all ease-in;
 
-	// @include respond(tab-port) {
-	// 	margin-bottom: 17.2rem;
-	// }
+	@media (max-width: 900px) {
+		margin-bottom: 12.2rem;
+		margin-left: -17vh;
+	}
+
+	@media (max-width: 414px) {
+		margin-bottom: 12.2rem;
+		margin-left: -15vh;
+	}
+
+	@media (max-width: 320px) {
+		margin-bottom: 12.2rem;
+		margin-left: -13vh;
+	}
 
 	&__side {
 		width: 100%;

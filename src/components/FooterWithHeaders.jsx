@@ -20,6 +20,8 @@ const FooterWithHeaders = () => {
 					<Link className="footer_headers--line-1__child-2"> </Link>
 					<Link className="footer_headers--line-1__child-3"> </Link>
 					<Link className="footer_headers--line-1__child-4"> </Link>
+					<Link className="footer_headers--line-1__child-5"> </Link>
+					<Link className="footer_headers--line-1__child-6"> </Link>
 				</div>
 			</div>
 
