@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./../Sass/components/_footer_with_headers.scss";
+import Svg1 from "./FooterHeaderSVGs/Svg1";
 import Logo from "./Logo";
 import { LogoFooter } from "./LogoFooter";
 
@@ -16,9 +17,12 @@ const FooterWithHeaders = () => {
 					<p> LUXURY</p>
 				</div>
 				<div className="footer_headers--line-1__child">
-					<Link className="footer_headers--line-1__child-1"> </Link>
+					<Link className="footer_headers--line-1__child-1">
+						{" "}
+						{/* <Svg1 className="footer_headers--line-1__child-1" />{" "} */}
+					</Link>
 					<Link className="footer_headers--line-1__child-2"> </Link>
-					<Link className="footer_headers--line-1__child-3"> </Link>
+					<Link className="footer_headers--line-1__child-3"></Link>
 					<Link className="footer_headers--line-1__child-4"> </Link>
 					<Link className="footer_headers--line-1__child-5"> </Link>
 					<Link className="footer_headers--line-1__child-6"> </Link>

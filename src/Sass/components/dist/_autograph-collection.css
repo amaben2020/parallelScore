@@ -1,0 +1,58 @@
+.autograph__collection {
+  background-color: black;
+  color: white;
+  width: 21vw;
+  height: 5vh;
+  padding: 0.4rem;
+  position: absolute;
+  top: 25%;
+  right: 1%;
+}
+@media (max-width: 1300px) {
+  .autograph__collection {
+    background-color: black;
+    color: white;
+    width: 28vw;
+    height: 5vh;
+    padding: 0.4rem;
+    position: absolute;
+    top: 25%;
+    right: 1%;
+  }
+}
+@media (max-width: 1024px) {
+  .autograph__collection {
+    background-color: black;
+    color: white;
+    width: 28vw;
+    height: 3vh;
+    padding: 0.4rem;
+    position: absolute;
+    top: 25%;
+    right: 1%;
+  }
+}
+@media (max-width: 768px) {
+  .autograph__collection {
+    background-color: black;
+    color: white;
+    width: 33vw;
+    height: 3.5vh;
+    padding: 0.4rem;
+    position: absolute;
+    top: 25%;
+    right: 1%;
+  }
+}
+@media (max-width: 767px) {
+  .autograph__collection {
+    display: none;
+  }
+}
+.autograph__collection--link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  cursor: crosshair !important;
+}

@@ -1,0 +1,95 @@
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s;
+  position: relative;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: 0.5px solid #f3f3f3;
+  transform: scaleY(1.1);
+  font-family: Swiss-721, Helvetica, Arial, sans-serif;
+  color: #fff;
+  max-width: 9.3vw;
+  max-height: 6.2vh;
+  background: rgba(0, 0, 0, 0.596);
+}
+@media (max-width: 768px) {
+  .btn {
+    max-width: 18.3vw;
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 360px) {
+  .btn {
+    max-width: 19.3vw;
+    height: 12.2vh;
+    font-size: 1rem;
+    margin-left: -4vw;
+  }
+}
+@media (max-width: 414px) {
+  .btn {
+    max-width: 19.3vw;
+    height: 12.2vh;
+    font-size: 1rem;
+    margin-left: -5vw;
+  }
+}
+@media (max-width: 411px) {
+  .btn {
+    max-width: 19.3vw;
+    height: 12.2vh;
+    font-size: 1rem;
+    margin-left: -5vw;
+  }
+}
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.btn--white {
+  background-color: rgba(36, 35, 35, 0.685);
+  color: #fff;
+}
+.btn:active {
+  transition: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  transition: all 0.4s;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.btn--animated {
+  animation: moveInBottom 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards;
+}
+
+.btn-text {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+  padding: 3px;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+.btn-text:hover {
+  background-color: #fff;
+  color: #fff;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translate(-2px);
+}
+.btn-text:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translate(0);
+}

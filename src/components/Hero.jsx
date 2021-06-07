@@ -1,5 +1,5 @@
 import React from "react";
-import "./../Sass/layout/_header2.scss";
+import "./../Sass/layout/_header.scss";
 import headerText from "../data/header.json";
 import AutographCollection from "./AutographCollection";
 const Hero = () => {

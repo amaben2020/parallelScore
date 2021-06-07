@@ -1,10 +1,10 @@
-.header {
+.header2 {
   grid-column: full-start/col-end 6;
   background-image: url(../../img/logo-2/hero-2.jpg);
   background-size: cover;
   background-position: center;
   padding: 8rem;
-  padding-top: 4rem;
+  padding-top: 68vh;
   display: grid;
   grid-template-rows: 1fr min-content minmax(6rem, min-content) 1fr;
   grid-template-columns: minmax(min-content, max-content);
@@ -12,24 +12,88 @@
   justify-content: flex-start;
   height: 105vh;
 }
-.header__btn {
+@media (max-width: 1024px) {
+  .header2 {
+    height: 75vh;
+    padding-top: 28vh;
+  }
+}
+.header2--btn2 {
   align-self: start;
   justify-self: start;
-  background: rgba(0, 0, 0, 0.644);
+  background: rgba(0, 0, 0, 0);
   color: #fff;
+  padding: 1.2rem 4rem 1.2rem 4rem;
+  cursor: pointer;
+  border: 1px solid white;
+  margin-left: 7vw;
+  margin-top: -3vh;
+}
+.header2--btn2:hover {
+  background: #ff9662;
+}
+.header2--text {
+  font-size: 4rem;
+  font-weight: 300;
+  transform: scaleY(1.7);
+  margin-bottom: -1.4vh;
+  color: #fff;
+  letter-spacing: 0.5rem;
+  font-family: "atrament-web", sans-serif;
+  margin-left: 7vw;
+}
+@media (max-width: 1024px) {
+  .header2--text {
+    margin-bottom: -0.4vh;
+  }
+}
+@media (max-width: 360px) {
+  .header2--text {
+    font-size: 2.9rem;
+  }
+}
+.header2--text--sub {
+  letter-spacing: 0.58rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  transform: scaleY(1.5);
+  color: #fff;
+  font-family: "atrament-web", sans-serif;
+  margin-left: 7vw;
+}
+@media (max-width: 375px) {
+  .header2--text--sub {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 320px) {
+  .header2--text--sub {
+    font-size: 0.9rem;
+  }
+}
+.header2__btn2 {
+  align-self: start;
+  justify-self: start;
+  background: rgba(0, 0, 0, 0);
+  color: #fff;
+  padding: 1.2rem 4rem 1.2rem 4rem;
+  cursor: pointer;
+}
+.header2__btn2:hover {
+  background: #ff9662;
 }
 @media (max-width: 768px) {
-  .header__btn {
+  .header2__btn2 {
     margin-left: -0.1vw;
   }
 }
 @media (max-width: 414px) {
-  .header__btn {
+  .header2__btn2 {
     margin-left: -6vw;
   }
 }
 @media (max-width: 375px) {
-  .header__btn {
+  .header2__btn2 {
     font-size: 1.4rem;
     margin-left: -5vw;
   }

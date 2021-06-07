@@ -105,8 +105,9 @@
 }
 .footer_headers--line-1__child-4 {
   padding: 1.7rem;
-  background-image: url(./../../img/logo/redux.svg);
+  background-image: url(./../../img/logo/earth.png);
   background-repeat: no-repeat;
+  background-size: cover;
   width: 2rem;
   margin: 2rem;
   justify-content: space-between;
@@ -123,7 +124,7 @@
 }
 .footer_headers--line-1__child-5 {
   padding: 1.7rem;
-  background-image: url(./../../img/logo/redux.svg);
+  background-image: url(./../../img/logo/website-structure.svg);
   background-repeat: no-repeat;
   width: 2rem;
   margin: 2rem;
@@ -141,7 +142,7 @@
 }
 .footer_headers--line-1__child-6 {
   padding: 1.7rem;
-  background-image: url(./../../img/logo/redux.svg);
+  background-image: url(./../../img/logo/google-firebase.svg);
   background-repeat: no-repeat;
   width: 2rem;
   margin: 2rem;
@@ -263,7 +264,7 @@
 }
 .footer_headers--line-2__child-4 {
   padding: 1.7rem;
-  background-image: url(./../../img/logo/first-medal.svg);
+  background-image: url(./../../img/logo/api-file.svg);
   background-repeat: no-repeat;
   width: 2rem;
   margin: 0.5rem 2rem;
@@ -309,8 +310,7 @@
 }
 .footer_headers--line-2__child-6 {
   padding: 1.7rem;
-  background-image: url(./../../img/logo/first-medal.svg);
-  background-repeat: no-repeat;
+  background: url(./../../img/LogoFooterHeader/atlanta-flames-37590.svg) 50% 50% no-repeat;
   width: 2rem;
   margin: 0.5rem 2rem;
   opacity: 0.8 !important;
@@ -332,7 +332,7 @@
 }
 .footer_headers--line-2__child-7 {
   padding: 1.7rem;
-  background-image: url(./../../img/logo/first-medal.svg);
+  background-image: url(./../../img/logo/api-file.svg);
   background-repeat: no-repeat;
   width: 2rem;
   margin: 0.5rem 2rem;
@@ -355,7 +355,7 @@
 }
 .footer_headers--line-2__child-8 {
   padding: 1.7rem;
-  background-image: url(./../../img/logo/first-medal.svg);
+  background-image: url(./../../img/logo/redux.svg);
   background-repeat: no-repeat;
   width: 2rem;
   margin: 0.5rem 2rem;
@@ -384,7 +384,7 @@
 }
 .footer_headers--line-2__child-9 {
   padding: 1.7rem;
-  background-image: url(./../../img/logo/first-medal.svg);
+  background-image: url(./../../img/logo/google-firebase.svg);
   background-repeat: no-repeat;
   width: 2rem;
   margin: 0.5rem 2rem;
@@ -407,7 +407,7 @@
 }
 .footer_headers--line-2__child-10 {
   padding: 1.7rem;
-  background-image: url(./../../img/logo/first-medal.svg);
+  background-image: url(./../../img/logo/website-structure.svg);
   background-repeat: no-repeat;
   width: 2rem;
   margin: 0.5rem 2rem;
@@ -430,7 +430,7 @@
 }
 .footer_headers--line-2__child-11 {
   padding: 1.7rem;
-  background-image: url(./../../img/logo/first-medal.svg);
+  background-image: url(./../../img/logo/react-js.svg);
   background-repeat: no-repeat;
   width: 2rem;
   margin: 0.5rem 2rem;

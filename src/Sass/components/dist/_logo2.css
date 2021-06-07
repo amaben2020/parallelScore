@@ -1,9 +1,15 @@
 .header2__logo-2 {
-  height: 4.5vw;
+  height: 5.5vw;
   width: 15vw;
-  margin-left: 2vw;
-  margin-right: 7vw;
+  margin-left: 1.8vw;
+  margin-right: 6vw;
   margin-top: 3.5vh;
+}
+@media (max-width: 641px) {
+  .header2__logo-2 {
+    margin-left: 2.8vw;
+    margin-right: 4vw;
+  }
 }
 .header2__logo:hover {
   animation: moveInLeft 1s ease-in;

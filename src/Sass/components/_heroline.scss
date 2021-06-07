@@ -1,0 +1,10 @@
+.heroline {
+	color: #fff;
+	width: 10vw;
+	position: absolute;
+	top: 78%;
+	left: 0;
+	@media (max-width: 1024px) {
+		display: none;
+	}
+}

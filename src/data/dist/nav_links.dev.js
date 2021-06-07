@@ -11,22 +11,22 @@ var navlinks = [{
 }, {
   id: "2",
   name: "Special Offers",
-  link: "/specialoffers"
+  link: "/findandreserve"
 }, {
   id: "3",
   name: "Vacations",
-  link: "/specialoffers"
+  link: "/findandreserve"
 }, {
   id: "4",
   name: "Our Brands",
-  link: "/specialoffers"
+  link: "/findandreserve"
 }, {
   id: "5",
   name: "Our Credit Cards",
-  link: "/specialoffers"
+  link: "/findandreserve"
 }, {
   id: "6",
   name: "About Marriott Bonvoy",
-  link: "/specialoffers"
+  link: "/findandreserve"
 }];
 exports.navlinks = navlinks;
