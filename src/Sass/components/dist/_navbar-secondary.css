@@ -46,6 +46,12 @@
   font-family: proxima-nova, Helvetica, Arial, sans-serif;
   color: black;
 }
+@media (max-width: 1024px) {
+  .navbar_secondary--item-1__first--text {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
 @media (max-width: 780px) {
   .navbar_secondary--item-1__first--text {
     display: none;

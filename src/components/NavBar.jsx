@@ -7,6 +7,11 @@ import NavBarSecondary from "./NavBarSecondary";
 import Sidebar from "./SideBar";
 
 const NavBar = () => {
+	function refreshPage() {
+		setTimeout(() => {
+			window.location.reload();
+		}, 0.1);
+	}
 	return (
 		<nav className="navbar">
 			<Sidebar />
@@ -14,7 +19,11 @@ const NavBar = () => {
 			<NavBarSecondary />
 			{navlinks.map((navlink) => (
 				<ul className="navbar__ul">
-					<Link to={`${navlink.link}`} style={{ textDecoration: "none" }}>
+					<Link
+						onClick={refreshPage}
+						to={`${navlink.link}`}
+						style={{ textDecoration: "none" }}
+					>
 						{" "}
 						<li className="navbar__ul--li">{navlink.name} </li>{" "}
 					</Link>

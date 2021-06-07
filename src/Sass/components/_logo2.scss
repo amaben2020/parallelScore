@@ -1,0 +1,17 @@
+.header2 {
+	&__logo-box {
+		// position: absolute;
+		// top: 4rem;
+		// left: 4rem;
+	}
+	&__logo-2 {
+		height: 4.5vw;
+		width: 15vw;
+		margin-left: 2vw;
+		margin-right: 7vw;
+		margin-top: 3.5vh;
+	}
+	&__logo:hover {
+		animation: moveInLeft 1s ease-in;
+	}
+}

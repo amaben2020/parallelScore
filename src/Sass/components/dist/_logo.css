@@ -21,6 +21,7 @@
   .logo {
     height: 17vh;
     width: 14vh;
+    margin-left: 5vw;
   }
 }
 @media (max-width: 900px) {

@@ -5,16 +5,14 @@ export default function Cards2() {
 	return (
 		<div className="row">
 			{cardData.map((card) => (
-				<div className="col-1-of-4" key={card.id}>
+				<div className="col-1-of-4" style={{ marginLeft: "1vw" }} key={card.id}>
 					<div className="feature-box">
-						{/* <i className="feature-box__icon icon-basic-world"></i> */}
 						<img
 							className="feature-box__icon icon-basic-world"
 							src={card.image}
-							// src={img}
 							style={{ width: "100%" }}
 						/>
-						{/* <img className="feature-box__icon" src={img} /> */}
+
 						<h3 className="heading-tertiary u-margin-bottom-small">
 							{card.title}
 						</h3>

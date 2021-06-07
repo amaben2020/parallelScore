@@ -71,13 +71,25 @@
 			color: rgb(0, 0, 0);
 			z-index: 30;
 			text-decoration: none;
-			border-bottom: 0.3px solid rgb(196, 196, 196);
+
 			background-image: linear-gradient(
 				120deg,
 				transparent 0%,
 				transparent 50%,
 				#fff 50%
 			);
+
+			@media (max-width: 375px) {
+				font-size: 1.5rem;
+			}
+
+			@media (max-width: 360px) {
+				font-size: 1.4rem;
+			}
+
+			@media (max-width: 320px) {
+				margin-top: 7vh;
+			}
 		}
 
 		//span is an element not a class
@@ -107,11 +119,71 @@
 		text-align: center;
 		//width so the list covers the entire page
 		width: 100%;
-		margin-top: -6.5vh;
+		//margin-top: -6.5vh;
+		margin-top: 5vh;
+
+		@media (max-width: 768px) {
+			margin-top: -13vh;
+		}
+
+		@media (max-width: 414px) {
+			margin-top: 1vh;
+		}
+
+		@media (max-width: 411px) {
+			margin-top: 1vh;
+		}
+
+		@media (max-width: 375px) {
+			margin-top: 1vh;
+		}
+
+		@media (max-width: 360px) {
+			margin-top: 3vh;
+		}
+
+		@media (max-width: 320px) {
+			margin-top: 7vh;
+		}
 	}
 	//each item in the navigation list
 	&__item {
 		margin: 1rem;
+		display: flex;
+		border-bottom: 1px solid rgb(206, 203, 203);
+		width: 90vw;
+
+		&--right-1 {
+			width: 22px;
+			margin-left: 60vw;
+			color: #000;
+		}
+
+		&--right-2 {
+			width: 22px;
+			margin-left: 62vw;
+			color: #000;
+		}
+		&--right-3 {
+			width: 22px;
+			margin-left: 66vw;
+			color: #000;
+		}
+		&--right-4 {
+			width: 22px;
+			margin-left: 63.9vw;
+			color: #000;
+		}
+		&--right-5 {
+			width: 22px;
+			margin-left: 58.5vw;
+			color: #000;
+		}
+		&--right-6 {
+			width: 22px;
+			margin-left: 53vw;
+			color: #000;
+		}
 	}
 
 	//styling the X and button (White)

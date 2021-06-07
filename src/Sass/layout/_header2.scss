@@ -1,7 +1,7 @@
 .header {
 	// background-color: $color-grey-dark-1;
 	grid-column: full-start / col-end 6;
-	background-image: url(../../img/pscore.jpg);
+	background-image: url(../../img/logo-2/hero-2.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 8rem;
@@ -11,6 +11,7 @@
 	grid-template-columns: minmax(min-content, max-content);
 	grid-row-gap: 1.5rem;
 	justify-content: flex-start;
+	height: 105vh;
 
 	&__btn {
 		align-self: start;
