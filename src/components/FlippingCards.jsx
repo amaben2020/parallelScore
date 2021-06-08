@@ -16,6 +16,7 @@ const FlippingCards = () => {
 									<img
 										className="card__picture card__picture--1"
 										src={card.image}
+										alt={card.title}
 									/>
 									&nbsp;
 								</div>

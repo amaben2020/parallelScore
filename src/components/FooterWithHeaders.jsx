@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./../Sass/components/_footer_with_headers.scss";
-import Svg1 from "./FooterHeaderSVGs/Svg1";
-import Logo from "./Logo";
+
 import { LogoFooter } from "./LogoFooter";
 
 const FooterWithHeaders = () => {

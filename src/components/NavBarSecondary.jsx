@@ -1,6 +1,5 @@
 import React from "react";
 import "./../Sass/components/_navbar-secondary.scss";
-
 import GlobeSVG from "./GlobeSVG";
 import UserSVG from "./UserSVG";
 import TripSVG from "./TripSVG";
@@ -19,7 +18,6 @@ const NavBarSecondary = () => {
 			<nav className="navbar_secondary--item-1">
 				{" "}
 				<div className="navbar_secondary--item-1__first">
-					{/* &#x1f9f3; */}
 					<HelpSVG className="navbar_secondary--item-1__first--help" />
 					<p className="navbar_secondary--item-1__first--text"> Help </p>{" "}
 				</div>
@@ -28,7 +26,6 @@ const NavBarSecondary = () => {
 			<nav className="navbar_secondary--item-1">
 				{" "}
 				<div className="navbar_secondary--item-1__first">
-					{/* &#x1f9f3; */}
 					<TripSVG className="navbar_secondary--item-1__first--trip" />
 					<p className="navbar_secondary--item-1__first--text">
 						{" "}

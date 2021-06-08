@@ -1,5 +1,6 @@
 import React from "react";
-import { navlinks } from "./../data/nav_links.js";
+import { Link } from "react-router-dom";
+
 import ChevronRightSVG from "./ChevronRightSVG.jsx";
 
 const Sidebar = () => {
@@ -19,51 +20,42 @@ const Sidebar = () => {
 			<nav className="navigation__nav">
 				<ul className="navigation__list">
 					<li className="navigation__item">
-						<a href="#" className="navigation__link">
+						<Link to="/findandreserve" className="navigation__link">
 							Find & Reserve{" "}
-							{/* <span
-								style={{
-									marginLeft: "60vw",
-									color: "black",
-									marginTop: "-1vh",
-								}}
-							>
-								&#10132;{" "}
-							</span> */}
-						</a>
+						</Link>
 						<ChevronRightSVG className="navigation__item--right-1" />
 					</li>
 					<li className="navigation__item">
-						<a href="#" className="navigation__link">
+						<Link to="#" className="navigation__link">
 							Special Offers
-						</a>
+						</Link>
 						<ChevronRightSVG className="navigation__item--right-2" />
 					</li>
 					<li className="navigation__item">
-						<a href="#" className="navigation__link">
+						<Link to="#" className="navigation__link">
 							Vacations
-						</a>
+						</Link>
 						<ChevronRightSVG className="navigation__item--right-3" />
 					</li>
 					<li className="navigation__item">
-						<a href="#" className="navigation__link">
+						<Link to="#" className="navigation__link">
 							{" "}
 							Our Brands
-						</a>
+						</Link>
 						<ChevronRightSVG className="navigation__item--right-4" />
 					</li>
 					<li className="navigation__item">
-						<a href="#" className="navigation__link">
+						<Link to="#" className="navigation__link">
 							{" "}
 							Our Credit Cards
-						</a>
+						</Link>
 						<ChevronRightSVG className="navigation__item--right-5" />
 					</li>
 					<li className="navigation__item">
-						<a href="#" className="navigation__link">
+						<Link to="#" className="navigation__link">
 							{" "}
 							About Marriott Bonvoy
-						</a>
+						</Link>
 						<ChevronRightSVG className="navigation__item--right-6" />
 					</li>
 				</ul>

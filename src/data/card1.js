@@ -1,7 +1,6 @@
 import image1 from "../img/hero.jpg";
 import image2 from "../img/nat-9.jpg";
 import image3 from "../img/nat-7.jpg";
-import image4 from "./../img/nat-5.jpg";
 
 const cardData1 = [
 	{

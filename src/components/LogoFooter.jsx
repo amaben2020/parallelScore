@@ -21,8 +21,7 @@ export const LogoFooter = () => {
 						{" "}
 						o
 					</span>
-					y {/* <span className="logo__text--word__1">o</span>y{""} */}
-					<span className="logo--footer__text--word__2"> &trade; </span>
+					y<span className="logo--footer__text--word__2"> &trade; </span>
 				</p>
 			</div>
 		</Link>

@@ -2,7 +2,7 @@ import React from "react";
 import "./../../Sass/components/_navbar.scss";
 import { navlinks } from "../../data/nav_links2.js";
 import { Link } from "react-router-dom";
-import NavBarSecondary from "./../NavBarSecondary";
+
 import Sidebar from "./../SideBar";
 import Logo2 from "./Logo2";
 import Navbar2Secondary from "./Navbar2Secondary";

@@ -1,8 +1,8 @@
 import React from "react";
-import LogoSVG from "./LogoSVG";
+
 import MailSVG from "./MailSVG";
 import User2SVG from "./User2SVG";
-import logoImg from "./../../img/logo-2/logo-2.PNG";
+
 import "./../../Sass/components/_navbar-secondary2.scss";
 import LogoSVGsmall from "./LogoSVGsmall";
 import { Link } from "react-router-dom";

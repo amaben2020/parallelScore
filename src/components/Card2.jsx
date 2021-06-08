@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../img/hero.jpg";
+
 import { cardData } from "./../data/card2";
 export default function Cards2() {
 	return (
@@ -10,6 +10,7 @@ export default function Cards2() {
 						<img
 							className="feature-box__icon icon-basic-world"
 							src={card.image}
+							alt={card.image}
 							style={{ width: "100%" }}
 						/>
 

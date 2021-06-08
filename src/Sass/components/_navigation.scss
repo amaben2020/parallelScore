@@ -79,16 +79,31 @@
 				#fff 50%
 			);
 
+			@media (max-width: 414px) {
+				font-size: 1.1999rem;
+				padding-top: 1vh;
+				margin-top: 4vh;
+			}
+
+			@media (max-width: 411px) {
+				font-size: 1.2rem;
+				padding-top: 2vh;
+			}
+
 			@media (max-width: 375px) {
-				font-size: 1.5rem;
+				font-size: 1.1rem;
+				padding-top: 2vh;
+				margin-top: 4vh;
 			}
 
 			@media (max-width: 360px) {
-				font-size: 1.4rem;
+				font-size: 1rem;
+				margin-top: 3vh;
 			}
 
 			@media (max-width: 320px) {
-				margin-top: 7vh;
+				margin-top: 2vh;
+				font-size: 1.2rem;
 			}
 		}
 
